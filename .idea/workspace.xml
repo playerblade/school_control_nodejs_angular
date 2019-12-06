@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3c12f18-927a-4445-ac28-3d6f4dd4d0b3" name="Default Changelist" comment="this is my first commit">
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/models/Attedance.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/models/role.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/models/student.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/models/subject.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/attendance-list/attendance-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/attendance-list/attendance-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/attendance-list/attendance-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/attendance-list/attendance-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/students-list/students-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/students-list/students-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/students-list/students-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/students-list/students-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/services/attendance.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/services/attendance.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/services/role.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/services/role.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/services/student.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/services/student.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/services/subject.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/services/subject.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/subjects/subjects.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/subjects/subjects.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/subjects/subjects.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/subjects/subjects.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clietApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clietApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clietApp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clietApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clietApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clietApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clietApp/src/app/models/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/src/app/models/user.model.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sequelize_project" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/clietApp" />
+  </component>
+  <component name="ProjectId" id="1TiTR8pUwancc5Hrk6urDS3ZESj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/clietApp/node_modules/typescript/lib" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/api/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3c12f18-927a-4445-ac28-3d6f4dd4d0b3" name="Default Changelist" comment="" />
+      <created>1573941905347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573941905347</updated>
+      <workItem from="1573941913630" duration="331000" />
+      <workItem from="1573942597985" duration="1194000" />
+      <workItem from="1573944343061" duration="18000" />
+      <workItem from="1574118578765" duration="3241000" />
+      <workItem from="1574125767356" duration="6974000" />
+      <workItem from="1574163435655" duration="2869000" />
+      <workItem from="1574171784669" duration="155000" />
+      <workItem from="1574173059705" duration="5408000" />
+      <workItem from="1574186443020" duration="620000" />
+      <workItem from="1574533733085" duration="1130000" />
+      <workItem from="1574535592562" duration="10833000" />
+      <workItem from="1574603103998" duration="6714000" />
+      <workItem from="1574682821710" duration="1674000" />
+      <workItem from="1574688309617" duration="13946000" />
+      <workItem from="1574703296599" duration="3072000" />
+      <workItem from="1574707203798" duration="332000" />
+      <workItem from="1574718897624" duration="54000" />
+      <workItem from="1574724644877" duration="3678000" />
+      <workItem from="1574773282515" duration="784000" />
+      <workItem from="1575055348048" duration="2657000" />
+      <workItem from="1575158369939" duration="5190000" />
+      <workItem from="1575167305528" duration="118000" />
+      <workItem from="1575205562155" duration="71000" />
+      <workItem from="1575205682252" duration="8149000" />
+      <workItem from="1575214535065" duration="15660000" />
+      <workItem from="1575232414437" duration="6833000" />
+      <workItem from="1575290449885" duration="76000" />
+      <workItem from="1575322593902" duration="3365000" />
+      <workItem from="1575330787999" duration="51000" />
+      <workItem from="1575404810512" duration="7539000" />
+      <workItem from="1575451150453" duration="40000" />
+      <workItem from="1575467467161" duration="673000" />
+      <workItem from="1575473534244" duration="3028000" />
+      <workItem from="1575484753197" duration="5883000" />
+      <workItem from="1575538311574" duration="4460000" />
+      <workItem from="1575576254662" duration="4036000" />
+      <workItem from="1575583934113" duration="5000000" />
+      <workItem from="1575589022686" duration="315000" />
+      <workItem from="1575627127490" duration="4601000" />
+      <workItem from="1575636161734" duration="3626000" />
+      <workItem from="1575647169710" duration="1246000" />
+    </task>
+    <task id="LOCAL-00001" summary="this is my first commit">
+      <created>1574610496693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574610496693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="this is my first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is my first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="58" width="802" height="672" key="#SQL_Dialects" timestamp="1575587703822">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="278" y="58" width="802" height="672" key="#SQL_Dialects/0.25.1366.743@0.25.1366.743" timestamp="1575587703822" />
+    <state x="431" y="202" width="496" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575629420092">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="431" y="202" width="496" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1366.743@0.25.1366.743" timestamp="1575629420092" />
+    <state x="366" y="126" width="626" height="536" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575205628170">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="366" y="126" width="626" height="536" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1366.743@0.25.1366.743" timestamp="1575205628170" />
+    <state x="236" y="25" width="886" height="738" key="CommitChangelistDialog2" timestamp="1575241531978">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="236" y="25" width="886" height="738" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1575241531978" />
+    <state x="466" y="155" width="426" height="479" key="FileChooserDialogImpl" timestamp="1575451188681">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="466" y="155" width="426" height="479" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1575451188681" />
+    <state width="1320" height="146" key="GridCell.Tab.0.bottom" timestamp="1575167138236">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="146" key="GridCell.Tab.0.bottom/0.25.1366.743@0.25.1366.743" timestamp="1575167138236" />
+    <state width="1320" height="146" key="GridCell.Tab.0.center" timestamp="1575167138235">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="146" key="GridCell.Tab.0.center/0.25.1366.743@0.25.1366.743" timestamp="1575167138235" />
+    <state width="1320" height="146" key="GridCell.Tab.0.left" timestamp="1575167138234">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="146" key="GridCell.Tab.0.left/0.25.1366.743@0.25.1366.743" timestamp="1575167138234" />
+    <state width="1320" height="146" key="GridCell.Tab.0.right" timestamp="1575167138235">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="146" key="GridCell.Tab.0.right/0.25.1366.743@0.25.1366.743" timestamp="1575167138235" />
+    <state x="376" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1575647171071">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="376" y="224" key="com.intellij.ide.util.TipDialog/0.25.1366.743@0.25.1366.743" timestamp="1575647171071" />
+    <state x="346" y="177" key="run.anything.popup" timestamp="1575230131145">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="346" y="177" key="run.anything.popup/0.25.1366.743@0.25.1366.743" timestamp="1575230131145" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1575638107729">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.25.1366.743@0.25.1366.743" timestamp="1575638107729" />
+  </component>
+</project>
