@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3c12f18-927a-4445-ac28-3d6f4dd4d0b3" name="Default Changelist" comment="this is my first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/config/attendance.consults.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/models/Attedance.model.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/models/role.model.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/models/student.model.ts" afterDir="false" />
@@ -14,6 +17,10 @@
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/students-list/students-list.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/students-list/students-list.component.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/students-list/students-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/users-list/users-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/users-list/users-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/users-list/users-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clietApp/src/app/reports/users-list/users-list.component.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/services/attendance.service.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/services/attendance.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/services/role.service.spec.ts" afterDir="false" />
@@ -26,6 +33,24 @@
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/subjects/subjects.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/subjects/subjects.component.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clietApp/src/app/subjects/subjects.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/attendance_insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/attendance_insert.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/attendance.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/attendance.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/student.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/student.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/subject.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/subject.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/20191203205401-create-attendance.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/20191203205401-create-attendance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/attendance.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/attendance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/node_modules/nodemon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/node_modules/nodemon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/attendance.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/attendance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/students.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/students.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/subject.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/subject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clietApp" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clietApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clietApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clietApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clietApp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/src/app/app-routing.module.ts" afterDir="false" />
@@ -33,6 +58,7 @@
       <change beforePath="$PROJECT_DIR$/clietApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clietApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clietApp/src/app/models/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/src/app/models/user.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clietApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clietApp/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +69,23 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="sequelize_project" />
@@ -61,13 +104,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../software_engine/Sales_System_control" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/clietApp/node_modules/typescript/lib" />
   </component>
   <component name="RunManager">
@@ -150,6 +196,22 @@
       <workItem from="1575627127490" duration="4601000" />
       <workItem from="1575636161734" duration="3626000" />
       <workItem from="1575647169710" duration="1246000" />
+      <workItem from="1575668302978" duration="851000" />
+      <workItem from="1575669828318" duration="1205000" />
+      <workItem from="1575673918399" duration="1303000" />
+      <workItem from="1575717442160" duration="442000" />
+      <workItem from="1575729024932" duration="3733000" />
+      <workItem from="1575739075567" duration="13466000" />
+      <workItem from="1575754742494" duration="5118000" />
+      <workItem from="1575763117642" duration="3364000" />
+      <workItem from="1575837050471" duration="10370000" />
+      <workItem from="1575861099664" duration="14914000" />
+      <workItem from="1575876402795" duration="27931000" />
+      <workItem from="1575913711484" duration="7688000" />
+      <workItem from="1575928560480" duration="3213000" />
+      <workItem from="1575987398389" duration="600000" />
+      <workItem from="1575995647168" duration="375000" />
+      <workItem from="1576006120854" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1574610496693</created>
@@ -183,10 +245,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="this is my first commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="58" width="802" height="672" key="#SQL_Dialects" timestamp="1575587703822">
+    <state x="278" y="58" width="802" height="672" key="#SQL_Dialects" timestamp="1575746017258">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="278" y="58" width="802" height="672" key="#SQL_Dialects/0.25.1366.743@0.25.1366.743" timestamp="1575587703822" />
+    <state x="278" y="58" width="802" height="672" key="#SQL_Dialects/0.25.1366.743@0.25.1366.743" timestamp="1575746017258" />
+    <state x="278" y="58" width="802" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575892693006">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="278" y="58" width="802" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1366.743@0.25.1366.743" timestamp="1575892693006" />
     <state x="431" y="202" width="496" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575629420092">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
@@ -199,37 +265,93 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="236" y="25" width="886" height="738" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1575241531978" />
-    <state x="466" y="155" width="426" height="479" key="FileChooserDialogImpl" timestamp="1575451188681">
+    <state x="466" y="155" width="426" height="479" key="FileChooserDialogImpl" timestamp="1576006743411">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="466" y="155" width="426" height="479" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1575451188681" />
-    <state width="1320" height="146" key="GridCell.Tab.0.bottom" timestamp="1575167138236">
+    <state x="466" y="155" width="426" height="479" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1576006743411" />
+    <state width="1320" height="146" key="GridCell.Tab.0.bottom" timestamp="1575908740780">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1320" height="146" key="GridCell.Tab.0.bottom/0.25.1366.743@0.25.1366.743" timestamp="1575167138236" />
-    <state width="1320" height="146" key="GridCell.Tab.0.center" timestamp="1575167138235">
+    <state width="1320" height="146" key="GridCell.Tab.0.bottom/0.25.1366.743@0.25.1366.743" timestamp="1575908740780" />
+    <state width="1320" height="146" key="GridCell.Tab.0.center" timestamp="1575908740778">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1320" height="146" key="GridCell.Tab.0.center/0.25.1366.743@0.25.1366.743" timestamp="1575167138235" />
-    <state width="1320" height="146" key="GridCell.Tab.0.left" timestamp="1575167138234">
+    <state width="1320" height="146" key="GridCell.Tab.0.center/0.25.1366.743@0.25.1366.743" timestamp="1575908740778" />
+    <state width="1320" height="146" key="GridCell.Tab.0.left" timestamp="1575908740777">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1320" height="146" key="GridCell.Tab.0.left/0.25.1366.743@0.25.1366.743" timestamp="1575167138234" />
-    <state width="1320" height="146" key="GridCell.Tab.0.right" timestamp="1575167138235">
+    <state width="1320" height="146" key="GridCell.Tab.0.left/0.25.1366.743@0.25.1366.743" timestamp="1575908740777" />
+    <state width="1320" height="146" key="GridCell.Tab.0.right" timestamp="1575908740779">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1320" height="146" key="GridCell.Tab.0.right/0.25.1366.743@0.25.1366.743" timestamp="1575167138235" />
-    <state x="376" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1575647171071">
+    <state width="1320" height="146" key="GridCell.Tab.0.right/0.25.1366.743@0.25.1366.743" timestamp="1575908740779" />
+    <state width="1320" height="221" key="GridCell.Tab.1.bottom" timestamp="1575908740752">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="376" y="224" key="com.intellij.ide.util.TipDialog/0.25.1366.743@0.25.1366.743" timestamp="1575647171071" />
+    <state width="1320" height="221" key="GridCell.Tab.1.bottom/0.25.1366.743@0.25.1366.743" timestamp="1575908740752" />
+    <state width="1320" height="221" key="GridCell.Tab.1.center" timestamp="1575908740751">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="221" key="GridCell.Tab.1.center/0.25.1366.743@0.25.1366.743" timestamp="1575908740751" />
+    <state width="1320" height="221" key="GridCell.Tab.1.left" timestamp="1575908740750">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="221" key="GridCell.Tab.1.left/0.25.1366.743@0.25.1366.743" timestamp="1575908740750" />
+    <state width="1320" height="221" key="GridCell.Tab.1.right" timestamp="1575908740751">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="221" key="GridCell.Tab.1.right/0.25.1366.743@0.25.1366.743" timestamp="1575908740751" />
+    <state width="1320" height="221" key="GridCell.Tab.2.bottom" timestamp="1575908740755">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="221" key="GridCell.Tab.2.bottom/0.25.1366.743@0.25.1366.743" timestamp="1575908740755" />
+    <state width="1320" height="221" key="GridCell.Tab.2.center" timestamp="1575908740754">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="221" key="GridCell.Tab.2.center/0.25.1366.743@0.25.1366.743" timestamp="1575908740754" />
+    <state width="1320" height="221" key="GridCell.Tab.2.left" timestamp="1575908740753">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="221" key="GridCell.Tab.2.left/0.25.1366.743@0.25.1366.743" timestamp="1575908740753" />
+    <state width="1320" height="221" key="GridCell.Tab.2.right" timestamp="1575908740754">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="221" key="GridCell.Tab.2.right/0.25.1366.743@0.25.1366.743" timestamp="1575908740754" />
+    <state width="1320" height="221" key="GridCell.Tab.3.bottom" timestamp="1575908740758">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="221" key="GridCell.Tab.3.bottom/0.25.1366.743@0.25.1366.743" timestamp="1575908740758" />
+    <state width="1320" height="221" key="GridCell.Tab.3.center" timestamp="1575908740756">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="221" key="GridCell.Tab.3.center/0.25.1366.743@0.25.1366.743" timestamp="1575908740756" />
+    <state width="1320" height="221" key="GridCell.Tab.3.left" timestamp="1575908740756">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="221" key="GridCell.Tab.3.left/0.25.1366.743@0.25.1366.743" timestamp="1575908740756" />
+    <state width="1320" height="221" key="GridCell.Tab.3.right" timestamp="1575908740757">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="221" key="GridCell.Tab.3.right/0.25.1366.743@0.25.1366.743" timestamp="1575908740757" />
+    <state x="187" y="7" key="SettingsEditor" timestamp="1575934789203">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="187" y="7" key="SettingsEditor/0.25.1366.743@0.25.1366.743" timestamp="1575934789203" />
+    <state x="376" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576006119962">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="376" y="224" key="com.intellij.ide.util.TipDialog/0.25.1366.743@0.25.1366.743" timestamp="1576006119962" />
+    <state x="336" y="25" width="685" height="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575842866921">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="336" y="25" width="685" height="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1366.743@0.25.1366.743" timestamp="1575842866921" />
     <state x="346" y="177" key="run.anything.popup" timestamp="1575230131145">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="346" y="177" key="run.anything.popup/0.25.1366.743@0.25.1366.743" timestamp="1575230131145" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1575638107729">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1575932688762">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.25.1366.743@0.25.1366.743" timestamp="1575638107729" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.25.1366.743@0.25.1366.743" timestamp="1575932688762" />
   </component>
 </project>

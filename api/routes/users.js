@@ -10,6 +10,7 @@ router.get('/get', userController.get);
 router.post('/store', userController.store);
 router.put('/update/:id',userController.update);
 router.delete('/delete/:id',userController.destroy);
-
+router.get('/get/admins', userController.getAdmins);
+router.get('/get/teachers', userController.getTeachers);
 
 module.exports = router;

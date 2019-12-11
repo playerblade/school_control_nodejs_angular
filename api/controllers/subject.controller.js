@@ -37,4 +37,18 @@ function destroy(req, res ){
 		res.status(400).json({message: "Not deleted"});
 	});
 }
-module.exports = {get,store,update,destroy};
+
+function getSubjects(req , res){
+	models.sequelize.query(
+		'SELECT COUNT(sb.id) AS subject\n' +
+		'FROM Subjects sb;\n'
+	).then(subject =>{
+		res.json(subject);
+	}).catch(error =>{
+		res.status(400).send({
+			message: "not get"
+		});
+	});
+}
+
+module.exports = {get,store,update,destroy, getSubjects};

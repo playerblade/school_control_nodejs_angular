@@ -57,4 +57,18 @@ function destroy(req , res) {
 		});
 	});
 }
-module.exports = {get , post ,update , destroy};
+
+function getStudent(req , res){
+	models.sequelize.query('' +
+		'SELECT COUNT(s.id) AS student\n' +
+		'FROM Students s;\n'
+	).then(student => {
+		res.json(student);
+	}).catch(error => {
+		res.status(400).send({
+			message: "Not get"
+		});
+	});
+}
+
+module.exports = {get , post ,update , destroy , getStudent};

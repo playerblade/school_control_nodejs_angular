@@ -20,6 +20,7 @@ function store(req , res){
 		}
 	});
 }
+
 function update(req , res){
 	// res.status(200).send({ message: req.params.id });
 	const newData = req.body;
@@ -40,4 +41,33 @@ function destroy(req, res ){
 		res.status(400).json({message: "Not deleted"});
 	});
 }
-module.exports = {get,store,update,destroy};
+
+function getAdmins(req , res){
+	models.sequelize.query('' +
+		'SELECT CONCAT_WS(\' \',u.firstName , u.lastName) AS user, u.email , r.role\n' +
+		'FROM Users u JOIN Roles r ON  u.roleId = r.id\n' +
+		'WHERE r.id = 1;\n'
+	).then(users =>{
+		res.json(users);
+	}).catch(error =>{
+		res.status(400).send({
+			message: "not get"
+		});
+	});
+}
+
+function getTeachers(req , res){
+	models.sequelize.query(
+		'SELECT COUNT(u.id) AS user , r.role\n' +
+		'FROM Users u JOIN Roles r ON r.id = u.roleId\n' +
+		'WHERE r.role = \'teacher\';\n'
+	).then(users =>{
+		res.json(users);
+	}).catch(error =>{
+		res.status(400).send({
+			message: "not get"
+		});
+	});
+}
+
+module.exports = {get,store,update,destroy , getAdmins , getTeachers};

@@ -11,13 +11,7 @@ module.exports = {
       grade: {
         type: Sequelize.STRING
       },
-      presented: {
-        type: Sequelize.STRING
-      },
-      late: {
-        type: Sequelize.STRING
-      },
-      lack: {
+      attendance: {
         type: Sequelize.STRING
       },
       studentId: {
